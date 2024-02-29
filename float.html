@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+           <title>Profile</title>
+    </head>
+    <body>
+      <header>
+            <div class="logo">
+            <img src="./daiva.jpg"/>
+            </div>
+        <navbar>
+         <ul>
+          <li class="drop-down"><a href="#" >Education</a>
+            <ul class="drop-items">
+              <li>Btech-7.4</li>
+              <li>Intermediate-8.9</li>
+              <li>10th-8.5 </li>
+           </ul>
+          </li>
+          <li class="drop-down"><a href="#">Technical skills</a>
+            <ul class="drop-items">
+              <li>Java</li>
+              <li>Html</li>
+              <li>css</li>
+              <li>Bootstrap</li>
+              <li>Javascript</li>
+              <li>React js</li>
+              </ul>
+          </li>
+          <li class="drop-down"><a href="#">personal skills</a>
+            <ul class="drop-items">
+              <li>Quick learner</li>
+              <li>leadership</li>
+              <li>Ability to work 
+                  with full of confidence</li>
+              <li>self motivator</li>
+         </ul>
+         </li>
+         </ul>
+        </navbar>
+      </header>
+      <div class="button">
+        <button><a href="./kumar_resume (1).pdf" download="Resume">Resume</a></button>
+        <button><a href="certificates.html">certificates</a></button>
+      </div>
+    
+    </div>
+         
+        <style>
+          header{
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+          align-items: center;
+          padding: 10px 20px;
+        }
+header .logo{
+  width: 100px;
+}
+header .logo img{
+  width: 100%;
+  border-radius: 50%;
+}
+header navbar ul {
+  padding-top: 2rem;
+}
+header navbar ul li{
+  display: inline;
+ 
+
+}
+header navbar ul li a{
+  text-decoration: none;
+  padding: 5px 12px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 10px;
+}
+header navbar ul li a:hover{
+  background-color: black;
+  color: white;
+}
+header navbar ul .drop-down{
+  position: relative;
+}
+header navbar ul{
+  padding: 0;
+}
+header navbar ul .drop-down .drop-items{
+  position: absolute;
+  left: 0;
+  background-color: blueviolet;
+  color: white;
+  width: 150px;
+  margin-top: 1px;
+  border-radius: 10px;
+  display: none;
+}
+header navbar ul .drop-down .drop-items li{
+  padding: 5px 12px;
+  display: block;
+  border-bottom: 1px solid white;
+}
+header navbar ul .drop-down:hover .drop-items{
+display: block;
+}
+i{
+  font-size: 30px;
+
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:40px;}
+
+   body{
+  background-image: url('web.jpg');
+  background-size: cover;
+   }
+   </style>
+    </body>
+</html>

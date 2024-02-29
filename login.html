@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="ex.css" rel="stylesheet" type="text/css"/>
+<script>
+    function pt(){
+        window.print();
+    }
+</script>
+    </head>
+    <body>
+        <div id="header">
+            <img src="logo.png" id="img1" width="100px" height="100px"/>
+            <h1>Title of web site</h1>
+            <img src="logo2.jpg" id="img2" width="100px" height="100px"/>
+        </div>
+        <ul id="top-menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">About
+                <ul>
+                    <li><a href="">About1</a></li>
+                    <li><a href="">About2</a></li>
+                    <li><a href="">About3</a></li>
+                    <li><a href="">About4</a></li>
+                </ul>
+            </a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+        
+        <div id="contt">
+            <h1>Application form</h1><br/>
+            <input type="button" value="print" onclick="pt()"/>
+            <form method="get" action="login.php">
+                <br/>USername:<input type="text" id="un" name="um" required/>
+                <input type="submit" value="login"/>
+            </form>
+        </div>
+        <div id="footer">copy right information@2023</div>
+    </body>
+</html>

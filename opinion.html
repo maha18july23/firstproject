@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <style>
+          #div1{
+            background-color: darkmagenta;
+            padding:10px;
+            margin:10px;
+            font-size:50px;
+            text-align:center;
+          }
+          body,html{
+            background-image: url('nature.jpg');
+            background-size: cover;
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .container {
+           width: 300px; /* adjust the width as needed */
+           height: 300px; /* adjust the height as needed */
+           border-radius: 50%; /* creates a rounded shape */
+           overflow: hidden; /* ensures the image fits inside the rounded shape */
+           box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* optional: adds a shadow effect */
+}
+
+.rounded-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+       </style>
+    </head>
+    <body>
+        <p id="div1">Thank you for your opinion</p>
+        <div class="container">
+          <img src="happy.jpg" alt="My Image" class="rounded-image">
+        </div>
+    </body>
+</html>
